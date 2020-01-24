@@ -308,6 +308,11 @@ please preview your site before committing, and make sure to run
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
 </p>
+
+<p>
+  Please download <a href = "https://swcarpentry.github.io/shell-novice/data/data-shell.zip">these files</a> for the shell workshop.
+</p>
+
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
