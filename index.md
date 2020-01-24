@@ -169,20 +169,9 @@ Display the contact email address set in the configuration file.
 <p id="contact">
   <strong>Contact</strong>:
   Please email
-  {% if page.email %}
-  {% for email in page.email %}
-  {% if forloop.last and page.email.size > 1 %}
-  or
-  {% else %}
-  {% unless forloop.first %}
-  ,
-  {% endunless %}
-  {% endif %}
-  <a href='mailto:{{email}}'>{{email}}</a>
-  {% endfor %}
-  {% else %}
-  to-be-announced
-  {% endif %}
+  
+  <a href='mailto:library@caltech.edu'>library@caltech.edu</a>
+
   for more information.
 </p>
 
@@ -223,13 +212,11 @@ We will use this <a href="{{page.collaborative_notes}}">collaborative document</
 {% endif %}
 
 
-{% comment %} 
-SURVEYS - DO NOT EDIT SURVEY LINKS 
-{% endcomment %}
+
 <h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<p>Please be sure to complete these surveys after the workshop.</p>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLScPzdic98x3mGXXh5g6GPA-45qfAvxmkjs3wMDMiAgKou7cdg/viewform?usp=sf_link">Intro to Shell</a></p>
+
 
 <hr/>
 
