@@ -228,7 +228,7 @@ We will use this <a href="{{page.collaborative_notes}}">collaborative document</
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys after the workshop.</p>
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScPzdic98x3mGXXh5g6GPA-45qfAvxmkjs3wMDMiAgKou7cdg/viewform?usp=sf_link">Intro to Shell</a></p>
-
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSe6bW9kjrLRghvJPN3cD0JjiBIpzjVPIiBTDxKNDXyde8xtrw/viewform?usp=sf_link">Intro to Git</a></p>
 
 <hr/>
 
